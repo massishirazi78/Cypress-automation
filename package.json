@@ -1,0 +1,18 @@
+{
+  "name": "MyDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec cypress/integration/newtestsuit.spec.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
